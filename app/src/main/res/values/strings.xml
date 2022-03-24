@@ -3,4 +3,12 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="hour_label">Heure</string>
+    <string name="stop_label">Arrêt</string>
+    <string name="line_label">Ligne</string>
+    <string name="confirm_button">Confirmer</string>
+    <string name="correct_button">Corriger</string>
+    <string name="affluence_description">Lorem Ipsum is simply dummy text of the printing</string>
+    <string name="affluence">Moyenne</string>
+    <string name="affluence_label">Affluence :</string>
 </resources>

@@ -1,8 +1,13 @@
 <resources>
+<!--    Global-->
     <string name="app_name">AffluNantes</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+
+<!--    Menu-->
+    <string name="title_search">Recherche</string>
+    <string name="title_map">Map</string>
+    <string name="title_favoris">Favoris</string>
+
+<!--    Ecran recherche-->
     <string name="hour_label">Heure</string>
     <string name="stop_label">Arrêt</string>
     <string name="line_label">Ligne</string>
@@ -11,4 +16,11 @@
     <string name="affluence_description">Lorem Ipsum is simply dummy text of the printing</string>
     <string name="affluence">Moyenne</string>
     <string name="affluence_label">Affluence :</string>
+    <string name="changeDirection">Changement de direction</string>
+    <string name="choixHeure">Choix de l\'heure</string>
+    <string name="choixArret">Choix de l\'arrêt</string>
+    <string name="choixLigne">Choix de la ligne</string>
+    <string name="visuelAffluence">Représentation visuelle de l\'affluence</string>
+
+    <!--    Ecran favoris-->
 </resources>

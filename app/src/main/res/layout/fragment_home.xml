@@ -60,15 +60,17 @@
             android:src="@drawable/ic_launcher_foreground"
             app:layout_constraintBottom_toTopOf="@+id/correctButton"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/affluenceLabel" />
+            app:layout_constraintTop_toBottomOf="@+id/affluenceLabel"
+            android:contentDescription="@string/visuelAffluence" />
 
         <Button
             android:id="@+id/confirmButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="128dp"
+            android:layout_height="64dp"
             android:layout_marginStart="32dp"
             android:layout_marginBottom="16dp"
             android:text="@string/confirm_button"
+            android:textColor="#FAFAFA"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/correctButton"
             app:layout_constraintHorizontal_bias="0.0"
@@ -78,11 +80,12 @@
 
         <Button
             android:id="@+id/correctButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="128dp"
+            android:layout_height="64dp"
             android:layout_marginEnd="32dp"
             android:layout_marginBottom="16dp"
             android:text="@string/correct_button"
+            android:textColor="#FAFAFA"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             tools:layout_conversion_absoluteHeight="48dp"
@@ -93,7 +96,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="394dp"
         android:layout_height="312dp"
-        android:layout_marginBottom="72dp"
+        android:layout_marginBottom="64dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -116,13 +119,16 @@
                 android:layout_width="331dp"
                 android:layout_height="60dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"
+                android:contentDescription="@string/choixLigne" />
 
             <ImageButton
                 android:id="@+id/changeDirectionImage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/ic_notifications_black_24dp" />
+                android:contentDescription="@string/changeDirection"
+                android:src="@drawable/ic_change_dir_white_24"
+                android:background="@color/blue_dark" />
         </LinearLayout>
 
         <TextView
@@ -140,7 +146,8 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            android:contentDescription="@string/choixArret" />
 
         <TextView
             android:id="@+id/textView3"
@@ -157,7 +164,8 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            android:contentDescription="@string/choixHeure" />
 
     </LinearLayout>
 

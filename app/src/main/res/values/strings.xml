@@ -8,15 +8,25 @@
     <string name="title_favoris">Favoris</string>
 
 <!--    Ecran recherche-->
+    <string name="affluence_label">Affluence :</string>
+    <string name="affluence_faible_description">Places assises disponibles</string>
+    <string name="affluence_moyenne_description">Peu de places assises disponbibles et quelques personnes debout</string>
+    <string name="affluence_elevee_description">Beaucoup de personnes debout, pas trop serrées</string>
+    <string name="affluence_tres_elevee_description">Beaucoup de personnes debout, très serrées</string>
+    <string name="affluence_faible">Faible</string>
+    <string name="affluence_moyenne">Moyenne</string>
+    <string name="affluence_elevee">Élevée</string>
+    <string name="affluence_tres_elevee">Très élevée</string>
+
+    <string name="confirm_button">Confirmer</string>
+    <string name="correct_button">Corriger</string>
+
     <string name="hour_label">Heure</string>
     <string name="stop_label">Arrêt</string>
     <string name="line_label">Ligne</string>
-    <string name="confirm_button">Confirmer</string>
-    <string name="correct_button">Corriger</string>
-    <string name="affluence_description">Lorem Ipsum is simply dummy text of the printing</string>
-    <string name="affluence">Moyenne</string>
-    <string name="affluence_label">Affluence :</string>
     <string name="changeDirection">Changement de direction</string>
+
+
     <string name="choixHeure">Choix de l\'heure</string>
     <string name="choixArret">Choix de l\'arrêt</string>
     <string name="choixLigne">Choix de la ligne</string>
